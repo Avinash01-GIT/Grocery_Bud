@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+* {
+  font-family: "Poetsen One", sans-serif;
+}
+
+body{
+  background-image: linear-gradient(to top, #8decb4, #7bdda2, #68ce91, #55bf7f, #41b06e);
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.app {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+h2 {
+  text-align: center;
+}
+
+.input-MainBox {
+  margin-top: 20px;
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+}
+
+.input-box input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.input-box button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 8px;
+  /* background-color: green; */
+  color: #fff;
+  cursor: pointer;
+  background-image: linear-gradient(to left bottom, #f97300, #ee9736, #e5b466, #e0cb9a, #e2dfd0);
+}
+
+.text-box {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.check-box {
+  display: flex;
+  align-items: center;
+}
+
+.check-box input {
+  margin-right: 10px;
+}
+
+.para {
+  margin: 0;
+}
+
+.deleteItem {
+  padding: 5px 10px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: tomato;
+  color: #fff;
+  cursor: pointer;
+}
+
